@@ -9,7 +9,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "task2", "task2\task2.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rand", "task3\task3.vcxproj", "{94D63203-6012-4058-9967-B268DD4268C9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rand2", "rand2\rand2.vcxproj", "{7A97344C-E243-4242-A1CC-0557CFD8A822}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "password", "rand2\rand2.vcxproj", "{7A97344C-E243-4242-A1CC-0557CFD8A822}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rand3", "rand3\rand3.vcxproj", "{C72B8ECF-E428-460F-BE67-8EEEA4419737}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{7A97344C-E243-4242-A1CC-0557CFD8A822}.Debug|Win32.Build.0 = Debug|Win32
 		{7A97344C-E243-4242-A1CC-0557CFD8A822}.Release|Win32.ActiveCfg = Release|Win32
 		{7A97344C-E243-4242-A1CC-0557CFD8A822}.Release|Win32.Build.0 = Release|Win32
+		{C72B8ECF-E428-460F-BE67-8EEEA4419737}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C72B8ECF-E428-460F-BE67-8EEEA4419737}.Debug|Win32.Build.0 = Debug|Win32
+		{C72B8ECF-E428-460F-BE67-8EEEA4419737}.Release|Win32.ActiveCfg = Release|Win32
+		{C72B8ECF-E428-460F-BE67-8EEEA4419737}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

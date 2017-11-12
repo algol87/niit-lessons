@@ -11,10 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7A97344C-E243-4242-A1CC-0557CFD8A822}</ProjectGuid>
+    <ProjectGuid>{C72B8ECF-E428-460F-BE67-8EEEA4419737}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>rand2</RootNamespace>
-    <ProjectName>password</ProjectName>
+    <RootNamespace>rand3</RootNamespace>
+    <ProjectName>countSymbols</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -77,7 +77,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="task4.c" />
+    <ClCompile Include="task5.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
