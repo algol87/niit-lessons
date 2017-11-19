@@ -17,6 +17,7 @@ int str2int(char *buf)
 	return value;
 }
 
+
 int main()
 {
 	char buf[128] = "45677777";
