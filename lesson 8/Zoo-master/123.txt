@@ -1,0 +1,7 @@
+Enter type: Enter name: Enter age: Danger (0/1)? Enter type: Enter name: Enter age: Danger (0/1)? Enter type: Enter name: Enter age: Danger (0/1)? Enter type: Enter name: Enter age: Danger (0/1)? Enter type: Enter name: Enter age: Danger (0/1)? Enter type: Enter name: Enter age: Danger (0/1)? 
+         monkey            Abul  3 Not danger
+      crocodile            Gena  5 Danger
+           lion             Lev  7 Danger
+            fox         Mozilla  1 Not danger
+          tiger           Vasya  8 Danger
+           bear           Misha  4 Danger
