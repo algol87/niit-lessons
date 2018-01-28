@@ -36,13 +36,14 @@ void printSolution()
 	int i = 0, j = 0;
 	while (i < N)
 	{
-		printf("\n");
 		while (j < N)
 		{
 			printf("%c ", arr[i][j]);
 			j++;
 		}
+		printf("\n");
 		i++;
+		j = 0;
 	}
 	//clock_t now = clock();
 	//while (clock() < now + 100);
@@ -55,11 +56,12 @@ void placeQueen(int i)
 	if (i == N)
 	{
 		printSolution();
+		count++;
+		printf("%d", count);
 		return;
 	}
 	else
 	{
-		count++;
 		for (int j = 0; j < N; j++)
 		{
 			
@@ -67,11 +69,8 @@ void placeQueen(int i)
 			{
 				arr[i][j] = '*';
 				placeQueen(i + 1);
-			}	
-			/*if (i < count)
-			{
 				arr[i][j] = '\0';
-			}*/
+			}	
 		}
 		
 	}
@@ -82,7 +81,8 @@ void placeQueen(int i)
 
 int main()
 {
+	
+	
 	placeQueen(0);
-	//printSolution();
 	return 0;
 }
