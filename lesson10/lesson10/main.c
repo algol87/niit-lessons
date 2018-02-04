@@ -10,21 +10,21 @@ int checkPosition(int i, int j)
 	int k = 1;
 	while (i-k >=0 && j-k>=0)
 	{
-		if (arr[i-k][j-k] != 0)
+		if (arr[i-k][j-k] != '0')
 			return 1;
 		k++;
 	}
 	k = 1;
 	while (i-k >= 0)
 	{
-		if (arr[i-k][j] != 0)
+		if (arr[i - k][j] != '0')
 			return 1;
 		k++;
 	}
 	k = 1;
 	while (i-k >= 0 && j+k < N)
 	{
-		if (arr[i-k][j+k] != 0)
+		if (arr[i - k][j + k] != '0')
 			return 1;
 		k++;
 	}
@@ -38,7 +38,7 @@ void printSolution()
 	{
 		while (j < N)
 		{
-			printf("%c ", arr[i][j]);
+			printf("%c", arr[i][j]);
 			j++;
 		}
 		printf("\n");
@@ -55,9 +55,10 @@ void placeQueen(int i)
 	static int count = 0;
 	if (i == N)
 	{
-		printSolution();
 		count++;
-		printf("%d", count);
+		printf("%d\n", count);
+		printSolution();
+		
 		return;
 	}
 	else
@@ -67,9 +68,9 @@ void placeQueen(int i)
 			
 			if (!checkPosition(i, j))
 			{
-				arr[i][j] = '*';
+				arr[i][j] = '1';
 				placeQueen(i + 1);
-				arr[i][j] = '\0';
+				arr[i][j] = '0';
 			}	
 		}
 		
@@ -82,7 +83,17 @@ void placeQueen(int i)
 int main()
 {
 	
-	
+	int i = 0, j = 0;
+	while (i < N)
+	{
+		while (j < N)
+		{
+			arr[i][j]='0';
+			j++;
+		}
+		i++;
+		j = 0;
+	}
 	placeQueen(0);
 	return 0;
 }
