@@ -6,4 +6,6 @@
 5 - work with files, sort<br>
 6 - pointers on strings<br>
 7 - "turtle"<br>
-8 - recursion "corns on chess"<br>
+8 - recursion "corns on chess", struct "WordTree","Zoo"<br>
+9 - struct and list "countries"<br>
+10 - rekurs "Queens"<br>
