@@ -24,8 +24,8 @@ struct SYM* buildTree(struct SYM *psym[], int N)
 		return temp; 
 	// добавляем temp в нужную позицию psym, 
 	// сохраняя порядок убывания частоты 
-	int i = 0;
-	while (i<N && temp->freq > psym[N - i - 1]->freq)
+	int i = 1;
+	while ((N - i - 1)>=0 && temp->freq > psym[N - i - 1]->freq)
 	{
 		psym[N - i] = psym[N - i-1];
 		psym[N - i-1] = temp;
@@ -78,7 +78,8 @@ int  main()
 	{
 		psym[i] = arr+i;
 	}
-	buildTree(psym, SIZE);
+	
+	makeCodes(buildTree(psym, SIZE));
 
 		
 
